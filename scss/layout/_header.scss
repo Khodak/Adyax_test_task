@@ -1,0 +1,32 @@
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+header{
+	width:100%;
+	min-width: $min-width;
+	text-align:left;	
+	order: 1;	
+    -webkit-order: 1;
+    .logo {
+    	margin:0 auto;
+    	img {
+			display: block;
+    		margin: 0 auto;
+    	}
+    	p {
+    		text-align: center;
+		    font-weight: 700;
+		    font-size: 11px;
+		    letter-spacing: 6px;
+		    margin: 0;
+		    text-transform: uppercase;
+		    padding-top: 18px;
+		    padding-bottom: 0;
+		    font-family: $work-sans-font-family;
+    	}
+    }	
+}
+

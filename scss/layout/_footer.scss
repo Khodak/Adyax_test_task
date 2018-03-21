@@ -1,0 +1,41 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	background:url(../img/bg_footer.png) no-repeat 0 0; 	
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+    -webkit-order: 3;
+    background-color: black;
+    background-position: center;
+    .footer {
+    	padding: 210px 0 190px;
+    	@include respond-to(tablet-portrait) {
+			padding: 50px 0 40px;
+    	}	
+	    p {
+	    	color: #fff;
+	    	font-weight: 700;
+	    	font-family: $poppins-font-family;
+	    	font-size: 36px;
+		    line-height: 1.5;
+		    max-width: 740px;
+		    margin: 0 auto;
+		    text-align: center;
+		    @include respond-to(tablet-portrait) {
+		    	font-size: 32px;
+			    line-height: 1.5;
+			    margin: 0 auto;
+			    text-align: center;
+		    }
+		    @include respond-to(phone) {
+				font-size: 20px;
+		    }
+	    }
+    }
+}
